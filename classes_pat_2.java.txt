@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Rectangle{
+    public static void main(String args[]){
+        int length, breadth;
+        Scanner obj = new Scanner(System.in);
+        length = obj.nextInt();
+        breadth = obj.nextInt();
+        System.out.println(length*breadth);
+        System.out.println(2*(length+breadth));
+    
+    }
+}
